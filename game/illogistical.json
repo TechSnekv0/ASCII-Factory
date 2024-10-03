@@ -1,0 +1,165 @@
+{
+    "title":"illogistical",
+    "id":12,
+    "tiles":[
+        {
+            "tilename":"error",
+            "render":[219, "MAGENTA"]
+        },
+        {
+            "tilename":"empty"
+        },
+        {
+            "tilename":"black_granite",
+            "render_flags":"ENVIRONMENTAL",
+            "render":[
+                219, "DGRAY",
+                177, "BLACK"
+            ]
+        },
+        {
+            "tilename":"red_granite",
+            "render_flags":"ENVIRONMENTAL",
+            "render":[
+                219, "RED",
+                176, "LRED"
+            ]
+        },
+        {
+            "tilename":"LV_Conveyor",
+            "render_flags":"IODIRECTIONAL|TRANSPARENT|HALFSCALED|ROTATIONAL",
+            "render":{
+                "NS":[
+                    179, "LGRAY", 1, 0, 0, 0, 
+                    179, "LGRAY", 1, 0.5, 0, 0, 
+                    179, "LGRAY", 1, 0, 0.5, 0, 
+                    179, "LGRAY", 1, 0.5, 0.5, 0, 
+                    25, "BROWN", 0, 0, 0, 0
+                ],
+                "SN":[
+                    179, "LGRAY", 1, 0, 0, 0, 
+                    179, "LGRAY", 1, 0.5, 0, 0,
+                    179, "LGRAY", 1, 0, 0.5, 0,
+                    179, "LGRAY", 1, 0.5, 0.5, 0,
+                    24, "BROWN", 0, 0, 0, 0
+                ],
+                "EW":[
+                    196, "LGRAY", 1, 0, 0, 0,
+                    196, "LGRAY", 1, 0.5, 0, 0,
+                    196, "LGRAY", 1, 0, 0.5, 0,
+                    196, "LGRAY", 1, 0.5, 0.5, 0,
+                    27, "BROWN", 0, 0, 0, 0
+                ],
+                "WE":[
+                    196, "LGRAY", 1, 0, 0, 0,
+                    196, "LGRAY", 1, 0.5, 0, 0,
+                    196, "LGRAY", 1, 0, 0.5, 0,
+                    196, "LGRAY", 1, 0.5, 0.5, 0,
+                    26, "BROWN", 0, 0, 0, 0
+                ],
+                "EN":[
+                    179, "LGRAY", 1, 0, 0, 0,
+                    192, "LGRAY", 1, 0.5, 0, 0,
+                    192, "LGRAY", 1, 0, 0.5, 0,
+                    196, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "ES":[
+                    218, "LGRAY", 1, 0, 0, 0,
+                    196, "LGRAY", 1, 0.5, 0, 0,
+                    179, "LGRAY", 1, 0, 0.5, 0,
+                    218, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "NW":[
+                    217, "LGRAY", 1, 0, 0, 0,
+                    179, "LGRAY", 1, 0.5, 0, 0,
+                    196, "LGRAY", 1, 0, 0.5, 0,
+                    217, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "NE":[
+                    179, "LGRAY", 1, 0, 0, 0,
+                    192, "LGRAY", 1, 0.5, 0, 0,
+                    192, "LGRAY", 1, 0, 0.5, 0,
+                    196, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "WS":[
+                    196, "LGRAY", 1, 0, 0, 0,
+                    191, "LGRAY", 1, 0.5, 0, 0,
+                    191, "LGRAY", 1, 0, 0.5, 0,
+                    179, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "WN":[
+                    217, "LGRAY", 1, 0, 0, 0,
+                    179, "LGRAY", 1, 0.5, 0, 0,
+                    196, "LGRAY", 1, 0, 0.5, 0,
+                    217, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "SW":[
+                    196, "LGRAY", 1, 0, 0, 0,
+                    191, "LGRAY", 1, 0.5, 0, 0,
+                    191, "LGRAY", 1, 0, 0.5, 0,
+                    179, "LGRAY", 1, 0.5, 0.5, 0
+                ],
+                "SE":[
+                    218, "LGRAY", 1, 0, 0, 0,
+                    196, "LGRAY", 1, 0.5, 0, 0,
+                    179, "LGRAY", 1, 0, 0.5, 0,
+                    218, "LGRAY", 1, 0.5, 0.5, 0
+                ]
+            }
+        },
+        {
+            "tilename":"stockpile",
+            "render":[
+                219, "BLACK"
+            ]
+        }
+    ],
+    "floors":[
+        {
+            "tilename":"error",
+            "render":[219, "MAGENTA"]
+        },
+        {
+            "tilename":"empty",
+            "render":[249, "LGRAY"]
+        },
+        {
+            "tilename":"black_granite",
+            "render":[
+                219, "BLACK",
+                250, "DGRAY"
+            ]
+        },
+        {
+            "tilename":"red_granite",
+            "render":[
+                219, "BLACK",
+                250, "RED"
+            ]
+        }
+    ],
+    "items":[
+        {
+            "itemname":"iron_plate",
+            "render":[
+                254, "LGRAY",
+                255, "DGRAY"
+            ]
+        },
+        {
+            "itemname":"iron_ore",
+            "render":[
+                7, "RED"
+            ]
+        }
+    ],
+    "entities":[
+
+    ],
+    "recipes":[
+
+    ], 
+    "behaviors":[
+
+    ]
+}
