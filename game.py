@@ -193,9 +193,15 @@ class Game:
         for i in code:
             tile = self.worldTiles.getTileSurfaceID(i[ASCII_CODE], i[COLOR])
             if not isRenderFlagInCode(HALFSCALED, flags):
+            # NOT HALFSCALED
+                if isRenderFlagInCode(ROTATIONAL, flags):
+                    tile = pygame.transform.rotate(tile, i[UNSCALED_ROTATION]*90)
                 self.renderSurface(pygame.transform.scale_by(tile, SCALE),
                     x*TILESIZE, (y+2)*TILESIZE)
             else:
+            # HALFSCALED
+                if isRenderFlagInCode(ROTATIONAL, flags):
+                    tile = pygame.transform.rotate(tile, i[SCALED_ROTATION]*90)
                 self.renderSurface(pygame.transform.scale_by(tile, 2-i[SCALE_CODE]), 
                     (x+i[X_OFFSET])*TILESIZE, (y+2+i[Y_OFFSET])*TILESIZE)
         
